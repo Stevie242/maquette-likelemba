@@ -621,6 +621,7 @@
     .body-home main{
         overflow-x: auto;
         height: 90vh;
+        padding-bottom: 50px !important;
     }
 
     /* Balance accueil start */
@@ -800,7 +801,6 @@
 
     .body-home .recents{
         padding: 10px 15px;
-        margin-bottom: 50px !important;
     }
 
     .body-home .recents .recent-head{
@@ -983,7 +983,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 50px !important;
     }
 
     .body-detail-card .versement .btn-versement{
