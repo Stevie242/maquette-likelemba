@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Likelemba est une plateforme de gestion de ristourne, carte de pointage et epargne!">
+    <meta name="keywords" content="Ristourne, epargne, carte de pointage, tontine">
+    <link rel="shortcut icon" href="./assets/img/logo/logo.jpg" type="image/x-icon">
+    <meta property="og:title" content="Likelemba">
+    <meta property="og:description" content="Likelemba est une plateforme de gestion de ristourne, carte de pointage et epargne!">
+    <meta property="og:image" content="https://stevie242.github.io/maquette-likelemba/assets/img/logo/logo.jpg">
+    <meta property="og:url" content="https://stevie242.github.io/maquette-likelemba/">
+    
+    <title>Inscription | Likelemba</title>
+    <!-- Styles css start -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Styles css end -->
+</head>
+<body class="body-register">
+    
+    <section class="register">
+        <div class="register-head">
+            <h4>Inscription</h4>
+        </div>
+        <div class="register-body">
+            <form action="#">
+                <!-- <h5>Remplissez le formulaire</h5> -->
+                <div class="register-step" id="step-1">
+                    <h6>Remplissez le formulaire</h6>
+                    <div class="input-form">
+                        <input type="text" name="name" id="name" placeholder="Nom et prénom">
+                    </div>
+                    <div class="input-form">
+                        <input type="date" name="birthday" id="birthday" placeholder="Date de naissance">
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="city" id="city" placeholder="Ville">
+                    </div>
+                    <div class="input-form">
+                        <input type="tel" name="phone" id="phone" placeholder="Numéro CG ex: 066006060">
+                    </div>
+                    <div class="button-form">
+                        <button type="button" class="btn-next" onclick="nextStep()">Suivant</button>
+                    </div>
+                </div>
+                <div class="register-step" id="step-2">
+                    <p>Afin de rendre votre compte plus sûr, choisissez une questions secrète dont vous serez le seul à connaitre la réponse</p>
+                    <div class="input-form">
+                        <select name="question" id="question">
+                            <option value="1">Quelle est votre ville natale ?</option>
+                            <option value="2">Quel est le prénom de votre grand-mère maternelle ?</option>
+                            <option value="3">Quel était le nom de votre premier animal de compagnie ?</option>
+                            <option value="4">Quelle est la marque et le modèle de votre première voiture ?</option>
+                            <option value="5">Quel est le nom de votre meilleur(e) ami(e) d'enfance ?</option>
+                            <option value="6">Quel est le nom de jeune fille de votre mère ?</option>
+                            <option value="7">Dans quelle ville avez-vous rencontré votre conjoint(e) ?</option>
+                            <option value="8">Quel est le nom de votre école primaire ?</option>
+                            <option value="9">Quel est votre plat préféré ?</option>
+                            <option value="10">Quel est le nom de votre film préféré ?</option>
+                        </select>
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="answer" id="answer" placeholder="Réponse">
+                    </div>
+                    <div class="button-form">
+                        <button type="button" class="btn-preview" onclick="prevStep()">Précédent</button>
+                        <button type="button" class="btn-next" onclick="nextStep()">Suivant</button>
+                    </div>
+                </div>
+                <div class="register-step" id="step-3">
+                    <h6>Finalisez votre inscription</h6>
+                    <div class="input-check">
+                        <input type="checkbox" name="approv" id="approv">
+                        <p>J'ai lu et j'approuve les <a href="#" target="_blank">conditions et les termes d'utilisation</a></p>
+                    </div>
+                    <div class="button-form">
+                        <button type="button" class="btn-preview" onclick="prevStep()">Précédent</button>
+                        <button type="submit" class="btn-submit" >S'inscrire</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Script js start -->
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/fontawesome/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Script js end -->
+</body>
+</html>

@@ -27,8 +27,8 @@
     --first-color: #1870B8;
     --first-color-light: #83B7DB;
     --first-color-hover: #034072;
-    --secod-color: #F19200;
-    --secod-color-hove: #af6901;
+    --second-color: #F19200;
+    --second-color-hover: #af6901;
     --black-color: #000000;
     --white-color: #ffffff;
     --red-color: #e00909;
@@ -276,17 +276,17 @@
     font-size: 28px;
     font-weight: 900;
     border-radius: 20px;
-    background-color: var(--secod-color);
+    background-color: var(--second-color);
     transition: ease-in-out .3s;
     margin-bottom: 10px;
 }
 
 .body-home .cards .card-body .card-add:hover{
-    color: var(--secod-color-hove);
+    color: var(--second-color-hover);
 }
 
 .body-home .cards .card-body .card-add div:hover{
-    background-color: var(--secod-color-hove);
+    background-color: var(--second-color-hover);
 }
 
 .body-home .cards .card-body .card-add h6{
@@ -751,17 +751,17 @@
         font-size: 28px;
         font-weight: 900;
         border-radius: 20px;
-        background-color: var(--secod-color);
+        background-color: var(--second-color);
         transition: ease-in-out .3s;
         margin-bottom: 10px;
     }
 
     .body-home .cards .card-body .card-add:hover{
-        color: var(--secod-color-hove);
+        color: var(--second-color-hover);
     }
 
     .body-home .cards .card-body .card-add div:hover{
-        background-color: var(--secod-color-hove);
+        background-color: var(--second-color-hover);
     }
 
     .body-home .cards .card-body .card-add h6{
@@ -1246,17 +1246,17 @@
         font-size: 28px;
         font-weight: 900;
         border-radius: 20px;
-        background-color: var(--secod-color);
+        background-color: var(--second-color);
         transition: ease-in-out .3s;
         margin-bottom: 10px;
     }
 
     .body-all-card .all-cards .all-card-body .all-card-add:hover{
-        color: var(--secod-color-hove);
+        color: var(--second-color-hover);
     }
 
     .body-all-card .all-cards .all-card-body .all-card-add div:hover{
-        background-color: var(--secod-color-hove);
+        background-color: var(--second-color-hover);
     }
 
     .body-all-card .all-cards .all-card-body .all-card-add h6{
@@ -1315,6 +1315,137 @@
         font-size: 14px;
     }
     /* Page all-card end */
+
+    /* Inscription start */
+    .body-register .register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow-y: auto;
+    }
+    
+    .body-register .register .register-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px !important;
+    }
+
+    .body-register .register .register-head h4{
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 20px;
+        background-color: var(--second-color);
+        color: var(--white-color);
+        margin-bottom: 0px !important;
+    }
+
+    .body-register .register .register-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .body-register .register .register-body .register-step{
+        display: none;
+    }
+
+    .body-register .register .register-body .register-step p,
+    .body-register .register .register-body .register-step h6{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+
+    .body-register .register .register-body .register-step .input-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .body-register .register .register-body .register-step .input-form select,
+    .body-register .register .register-body .register-step .input-form input{
+        width: 270px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 20px;
+        border: 2px solid gray;
+        outline: none;
+    }
+
+    .body-register .register .register-body .register-step .input-form select option{
+        font-size: 14px;
+    }
+
+    .body-register .register .register-body .register-step .button-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .body-register .register .register-body .register-step .button-form button{
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        color: var(--white-color);
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .body-register .register .register-body .register-step .button-form button{
+        background-color: var(--second-color);
+    }
+    .body-register .register .register-body .register-step .button-form button:hover{
+        background-color: var(--second-color-hover);
+    }
+
+    .body-register .register .register-body .register-step .button-form button:hover{
+        background-color: var(--second-color);
+    }
+    .body-register .register .register-body .register-step .button-form button.btn-preview{
+        background-color: var(--second-color);
+    }
+    .body-register .register .register-body .register-step .button-form button.btn-preview:hover{
+        background-color: var(--second-color-hover);
+    }
+    .body-register .register .register-body .register-step .button-form button.btn-next{
+        background-color: var(--first-color);
+    }
+    .body-register .register .register-body .register-step .button-form button.btn-next:hover{
+        background-color: var(--first-color-hover);
+    }
+    .body-register .register .register-body .register-step .button-form button.btn-submit{
+        background-color: var(--green-color);
+    }
+    .body-register .register .register-body .register-step .button-form button.btn-submit:hover{
+        background-color: var(--green-color-hover);
+    }
+    
+
+    .body-register .register .register-body .register-step .input-check{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .body-register .register .register-body .register-step .input-check input{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .body-register .register .register-body .register-step .input-check p{
+        text-align: start;
+    }
+
+    /* Inscription end */
 }
 
 /* Version Mobile end */
