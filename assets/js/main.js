@@ -25,3 +25,11 @@ function prevStep() {
 
 // Afficher la première étape au chargement de la page
 showStep(currentStep);
+
+
+function sub(){
+    sub = document.getElementById('subm');
+    sub.disabled = true;
+    formu = document.getElementById('formu');
+    formu.submit();
+}
