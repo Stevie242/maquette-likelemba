@@ -25,8 +25,8 @@
 :root {
     /* Color start */
     --first-color: #1870B8;
-    --firt-color-light: #83B7DB;
-    --firt-color-hover: #034072;
+    --first-color-light: #83B7DB;
+    --first-color-hover: #034072;
     --secod-color: #F19200;
     --secod-color-hove: #af6901;
     --black-color: #000000;
@@ -141,7 +141,7 @@
 }
 
 .bottom-navigation ul li a:hover{
-    color: var(--firt-color-hover);
+    color: var(--first-color-hover);
 }
 
 .bottom-navigation ul li a span:last-child{
@@ -159,7 +159,7 @@
 .body-home .balance{
     padding: 15px;
     margin: 15px;
-    background-color: var(--firt-color-hover);
+    background-color: var(--first-color-hover);
     border-radius: 15px;
 }
 
@@ -232,7 +232,7 @@
 }
 
 .body-home .cards .card-head a:hover{
-    color: var(--firt-color-hover);
+    color: var(--first-color-hover);
     text-decoration: underline;
 }
 
@@ -309,17 +309,17 @@
     height: 100px;
     color: var(--white-color);
     border-radius: 20px;
-    background-color: var(--firt-color-light);
+    background-color: var(--first-color-light);
     transition: ease-in-out .3s;
     margin-bottom: 10px;
 }
 
 .body-home .cards .card-body .card-body-item .card-content:hover{
-    background-color: var(--firt-color-hover);
+    background-color: var(--first-color-hover);
 }
 
 .body-home .cards .card-body .card-body-item:hover{
-    color: var(--firt-color-hover);
+    color: var(--first-color-hover);
 }
 
 .body-home .cards .card-body .card-body-item .card-content span{
@@ -355,7 +355,7 @@
 }
 
 .body-home .recents .recent-head a:hover{
-    color: var(--firt-color-hover);
+    color: var(--first-color-hover);
     text-decoration: underline;
 }
 
@@ -438,7 +438,7 @@
     color: var(--white-color);
     border-radius: 10px;
     border: 3px solid var(--first-color-light);
-    background-color: var(--firt-color-light);
+    background-color: var(--first-color-light);
     transition: ease-in-out .3s;
     margin-bottom: 10px;
 }
@@ -528,7 +528,7 @@
 }
 
 .body-detail-card .versement .btn-versement:hover{
-    background-color: var(--firt-color-hover);
+    background-color: var(--first-color-hover);
 }
 
 /* Details card end */
@@ -609,7 +609,7 @@
     }
 
     .bottom-navigation ul li a:hover{
-        color: var(--firt-color-hover);
+        color: var(--first-color-hover);
     }
 
     .bottom-navigation ul li a span:last-child{
@@ -628,7 +628,7 @@
     .body-home .balance{
         padding: 15px;
         margin: 15px;
-        background-color: var(--firt-color-hover);
+        background-color: var(--first-color-hover);
         border-radius: 15px;
     }
 
@@ -701,7 +701,7 @@
     }
 
     .body-home .cards .card-head a:hover{
-        color: var(--firt-color-hover);
+        color: var(--first-color-hover);
         text-decoration: underline;
     }
 
@@ -778,17 +778,17 @@
         height: 100px;
         color: var(--white-color);
         border-radius: 20px;
-        background-color: var(--firt-color-light);
+        background-color: var(--first-color-light);
         transition: ease-in-out .3s;
         margin-bottom: 10px;
     }
 
     .body-home .cards .card-body .card-body-item .card-content:hover{
-        background-color: var(--firt-color-hover);
+        background-color: var(--first-color-hover);
     }
 
     .body-home .cards .card-body .card-body-item:hover{
-        color: var(--firt-color-hover);
+        color: var(--first-color-hover);
     }
 
     .body-home .cards .card-body .card-body-item .card-content span{
@@ -824,7 +824,7 @@
     }
 
     .body-home .recents .recent-head a:hover{
-        color: var(--firt-color-hover);
+        color: var(--first-color-hover);
         text-decoration: underline;
     }
 
@@ -907,7 +907,7 @@
         color: var(--white-color);
         border-radius: 10px;
         border: 3px solid var(--first-color-light);
-        background-color: var(--firt-color-light);
+        background-color: var(--first-color-light);
         transition: ease-in-out .3s;
         margin-bottom: 10px;
     }
@@ -997,7 +997,7 @@
     }
 
     .body-detail-card .versement .btn-versement:hover{
-        background-color: var(--firt-color-hover);
+        background-color: var(--first-color-hover);
     }
 
     /* Details card end */
