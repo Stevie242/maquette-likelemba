@@ -36,7 +36,60 @@
                 <h5>Mes transactions</h5>
             </div>
             <div class="transaction-body">
-                
+                <div class="transaction-filter">
+                    <form action="#">
+                        <h6>Filtrer l'aperçu</h6>
+                        <div class="filter-transaction">
+                            <div class="input-form">
+                                <label for="type">Type</label>
+                                <select name="type" id="type">
+                                    <option value="1">Tous</option>
+                                    <option value="2">Versement</option>
+                                    <option value="3">Retrait</option>
+                                    <option value="4">Création</option>
+                                </select>
+                            </div>
+                            <div class="input-form">
+                                <label for="date-start">Date début</label>
+                                <input type="date" name="date_start" id="date_start">
+                            </div>
+                            <div class="input-form">
+                                <label for="date-end">Date fin</label>
+                                <input type="date" name="date_end" id="date_end">
+                            </div>
+                            <div class="button-form">
+                                <button type="reset" class="btn-reset">Clear</button>
+                                <button type="submit">Filtrer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <ul>
+                    <li>
+                        <span>Ma carte N°1 : 12/01/2024 - Versement : 3000 Xaf</span>
+                    </li>
+                    <li>
+                        <span>Ma carte N°1 : 11/01/2024 - Versement : 3000 Xaf</span>
+                    </li>
+                    <li>
+                        <span>Ma carte N°1 : 11/01/2024 - Versement : 3000 Xaf</span>
+                    </li>
+                    <li>
+                        <span>Ma carte N°1 : 10/01/2024 - Versement : 3000 Xaf</span>
+                    </li>
+                    <li>
+                        <span>Ma carte N°3 : 09/01/2024 - Création carte</span>
+                    </li>
+                    <li>
+                        <span>Ma carte N°2 : 09/01/2024 - Création carte</span>
+                    </li>
+                    <li>
+                        <span>Ma carte N°1 : 07/01/2024 - Versement : 3000 Xaf</span>
+                    </li>
+                    <li>
+                        <span>Ma carte N°1 : 07/01/2024 - Création carte</span>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>

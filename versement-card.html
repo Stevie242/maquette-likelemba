@@ -12,14 +12,14 @@
     <meta property="og:image" content="https://stevie242.github.io/maquette-likelemba/assets/img/logo/logo.jpg">
     <meta property="og:url" content="https://stevie242.github.io/maquette-likelemba/">
     
-    <title>Toute mes cartes | Likelemba</title>
+    <title>Création carte pointage | Likelemba</title>
     <!-- Styles css start -->
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Styles css end -->
 </head>
-<body class="body-all-card">
+<body class="body-versement">
     
     <main>
         <section class="top-bar-mobile">
@@ -31,56 +31,43 @@
             </header>
         </section>
 
-        <section class="all-cards">
-            <div class="all-card-head">
-                <h5>Mes cartes</h5>
+        <section class="versement">
+            <div class="versement-head">
+                <h5>Faire un versement</h5>
             </div>
-            <div class="all-card-body">
-                <a href="./add-card.html" class="all-card-add">
-                    <div>
-                        <span class="fa fa-plus"></span>
+            <div class="versement-body">
+                <form action="#" id="formu">
+                    <div class="input-form">
+                        <label for="name">Selectionné la carte</label>
+                        <select name="cardpoint" id="cardpoint">
+                            <option value="1">Carte N°1</option>
+                            <option value="2">Carte N°2</option>
+                            <option value="3">Carte N°3</option>
+                        </select>
                     </div>
-                    <h6>Nouvelle carte</h6>
-                </a>
-                <a href="./detail-card.html" class="all-card-body-item">
-                    <div class="all-card-content">
-                        <div class="card-amount">
-                            <span class="amount">15.000</span> <span class="currency">XAF</span>
-                        </div>
-                        <div class="case">
-                            <span>5/15</span>
-                        </div>
+                    <div class="input-form">
+                        <label for="amount">Montant de pointage</label>
+                        <select name="amount" id="amount">
+                            <option value="500">500</option>
+                            <option value="1000">1000</option>
+                            <option value="1500">1500</option>
+                            <option value="2000">2000</option>
+                            <option value="2500">2500</option>
+                            <option value="3000">3000</option>
+                            <option value="3500">3500</option>
+                            <option value="4000">4000</option>
+                            <option value="4500">4500</option>
+                            <option value="5000">5000</option>
+                        </select>
                     </div>
-                    <div class="card-name">
-                        <h6>Carte n°1</h6>
+                    <div class="input-form">
+                        <label for="phone">Numéro</label>
+                        <input type="tel" name="phone" id="phone" pattern="0[4-6]{1}[0-9]{7}" placeholder="Numéro opérateur CG">
                     </div>
-                </a>
-                <a href="./detail-card.html" class="all-card-body-item">
-                    <div class="all-card-content">
-                        <div class="card-amount">
-                            <span class="amount">0</span> <span class="currency">XAF</span>
-                        </div>
-                        <div class="case">
-                            <span>0/30</span>
-                        </div>
+                    <div class="button-form">
+                        <button type="submit" id="subm">Pointer</button>
                     </div>
-                    <div class="card-name">
-                        <h6>Carte n°2</h6>
-                    </div>
-                </a>
-                <a href="./detail-card.html" class="all-card-body-item">
-                    <div class="all-card-content">
-                        <div class="card-amount">
-                            <span class="amount">0</span> <span class="currency">XAF</span>
-                        </div>
-                        <div class="case">
-                            <span>0/30</span>
-                        </div>
-                    </div>
-                    <div class="card-name">
-                        <h6>Carte n°3</h6>
-                    </div>
-                </a>
+                </form>
             </div>
         </section>
     </main>

@@ -1225,7 +1225,7 @@
     /* Bottom bar mobile end */
 
     /* Main start */
-    .body-all-card main,
+    .body-add-card .body-all-card main,
     .body-transaction main,
     .body-service main,
     .body-compte main,
@@ -1413,6 +1413,153 @@
     }
 
     /* Cards accueil end */
+
+    /* Page add card start */
+    .body-add-card .add-card {
+        padding: 10px 15px;
+    }
+
+    .body-add-card .add-card .add-card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 3px solid var(--black-color);
+    }
+
+    .body-add-card .add-card .add-card-head h5 {
+        font-family: var(--maintfont);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .body-add-card .add-card-body form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .body-add-card .add-card-body form .input-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .body-add-card .add-card-body form .input-form label {
+        font-size: 14px;
+        color: var(--black-color);
+
+    }
+
+    .body-add-card .add-card-body form .input-form input {
+        width: 250px;
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: 2px solid gray;
+        font-size: 14px;
+        letter-spacing: 2px;
+        outline: none;
+    }
+
+    .body-add-card .add-card-body form .input-form span {
+        font-size: 10px;
+        color: gray;
+    }
+
+    .body-add-card .add-card-body form .button-form button {
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        color: var(--white-color);
+        background-color: var(--first-color);
+        font-size: 16px;
+        margin-right: 10px;
+        transition: ease-in-out .3s;
+    }
+
+    .body-add-card .add-card-body form .button-form button:hover {
+        background-color: var(--first-color-hover);
+    }
+
+    /* Page add card end */
+
+    /* Page versement card start */
+    .body-versement .versement {
+        padding: 10px 15px;
+    }
+
+    .body-versement .versement .versement-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 3px solid var(--black-color);
+    }
+
+    .body-versement .versement .versement-head h5 {
+        font-family: var(--maintfont);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .body-versement .versement-body form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .body-versement .versement-body form .input-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .body-versement .versement-body form .input-form label {
+        font-size: 14px;
+        color: var(--black-color);
+
+    }
+
+    .body-versement .versement-body form .input-form select,
+    .body-versement .versement-body form .input-form input {
+        width: 250px;
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: 2px solid gray;
+        font-size: 14px;
+        letter-spacing: 2px;
+        outline: none;
+    }
+
+    .body-versement .versement-body form .input-form span {
+        font-size: 10px;
+        color: gray;
+    }
+
+    .body-versement .versement-body form .button-form button {
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        color: var(--white-color);
+        background-color: var(--first-color);
+        font-size: 16px;
+        margin-right: 10px;
+        transition: ease-in-out .3s;
+    }
+
+    .body-versement .versement-body form .button-form button:hover {
+        background-color: var(--first-color-hover);
+    }
+
+    /* Page versement card end */
 
     /* Recents accueil start */
 
@@ -1669,14 +1816,18 @@
         margin-bottom: 2px !important;
     }
 
+    .body-compte .compte .compte-body .profil-detail .logout .button-logout button,
     .body-compte .compte .compte-body .profil-detail .logout a {
         text-decoration: none;
         font-size: 16px;
         font-family: var(--maintfont);
         color: red;
         transition: ease-in-out .3s;
+        background-color: transparent;
+        border: none;
     }
 
+    .body-compte .compte .compte-body .profil-detail .logout .button-logout button:hover,
     .body-compte .compte .compte-body .profil-detail .logout a:hover {
         color: red;
         text-decoration: underline;
@@ -1784,7 +1935,7 @@
         padding: 10px 15px;
     }
 
-    .body-transaction .transaction .transaction-head {
+    .body-transaction .transactions .transaction-head {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1792,12 +1943,94 @@
         margin-bottom: 10px;
     }
 
-    .body-transaction .transaction .transaction-head h5 {
+    .body-transaction .transactions .transaction-head h5 {
         font-family: var(--maintfont);
         font-size: 16px;
         font-weight: bold;
     }
 
+    .body-transaction .transactions .transaction-body {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter form h6{
+        font-size: 16px;
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter form .input-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 20px;
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter form .input-form select,
+    .body-transaction .transactions .transaction-body .transaction-filter form .input-form input{
+        font-size: 16;
+        width: 250px;
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: 2px solid gray;
+        outline: none;
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter .button-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter .button-form button {
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        color: var(--white-color);
+        background-color: var(--first-color);
+        font-size: 16px;
+        margin-right: 10px;
+        transition: ease-in-out .3s;
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter .button-form button:hover{
+        background-color: var(--first-color-hover);
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter .button-form button.btn-reset{
+        background-color: var(--red-color);
+    }
+
+    .body-transaction .transactions .transaction-body .transaction-filter .button-form button.btn-reset:hover{
+        background-color: var(--red-color-hover);
+    }
+
+    .body-transaction .transactions .transaction-body ul {
+        list-style: none;
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+    .body-transaction .transactions .transaction-body ul li {
+        margin-bottom: 10px !important;
+    }
+
+    .body-transaction .transactions .transaction-body ul li:last-child {
+        margin-bottom: 0px !important;
+    }
+
+    .body-transaction .transactions .transaction-body ul li span {
+        font-size: 12px;
+        font-family: var(--maintfont);
+    }
     /* Page transaction end */
 
     /* Page all-card start */
@@ -2012,6 +2245,7 @@
         color: var(--white-color);
         font-size: 16px;
         margin-right: 10px;
+        transition: ease-in-out .3s;
     }
 
     .body-register .register .register-body .register-step .button-form button {

@@ -12,14 +12,14 @@
     <meta property="og:image" content="https://stevie242.github.io/maquette-likelemba/assets/img/logo/logo.jpg">
     <meta property="og:url" content="https://stevie242.github.io/maquette-likelemba/">
     
-    <title>Toute mes cartes | Likelemba</title>
+    <title>Création carte pointage | Likelemba</title>
     <!-- Styles css start -->
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Styles css end -->
 </head>
-<body class="body-all-card">
+<body class="body-add-card">
     
     <main>
         <section class="top-bar-mobile">
@@ -31,56 +31,29 @@
             </header>
         </section>
 
-        <section class="all-cards">
-            <div class="all-card-head">
-                <h5>Mes cartes</h5>
+        <section class="add-card">
+            <div class="add-card-head">
+                <h5>Créer une nouvelle carte</h5>
             </div>
-            <div class="all-card-body">
-                <a href="./add-card.html" class="all-card-add">
-                    <div>
-                        <span class="fa fa-plus"></span>
+            <div class="add-card-body">
+                <form action="#" id="formu">
+                    <div class="input-form">
+                        <label for="name">Nom de la carte</label>
+                        <input type="text" name="name" id="name" placeholder="Nom de la carte">
+                        <span>(Si vide la plateforme affectera un nom par defaut)</span>
                     </div>
-                    <h6>Nouvelle carte</h6>
-                </a>
-                <a href="./detail-card.html" class="all-card-body-item">
-                    <div class="all-card-content">
-                        <div class="card-amount">
-                            <span class="amount">15.000</span> <span class="currency">XAF</span>
-                        </div>
-                        <div class="case">
-                            <span>5/15</span>
-                        </div>
+                    <div class="input-form">
+                        <label for="amount">Montant de pointage</label>
+                        <input type="number" min="500" name="amount" id="amount" placeholder="Montant de pointage">
                     </div>
-                    <div class="card-name">
-                        <h6>Carte n°1</h6>
+                    <div class="input-form">
+                        <label for="amount">Nombre de case</label>
+                        <input type="number" min="5" name="case" id="case" placeholder="Nombre de case">
                     </div>
-                </a>
-                <a href="./detail-card.html" class="all-card-body-item">
-                    <div class="all-card-content">
-                        <div class="card-amount">
-                            <span class="amount">0</span> <span class="currency">XAF</span>
-                        </div>
-                        <div class="case">
-                            <span>0/30</span>
-                        </div>
+                    <div class="button-form">
+                        <button type="submit" id="subm">Créer</button>
                     </div>
-                    <div class="card-name">
-                        <h6>Carte n°2</h6>
-                    </div>
-                </a>
-                <a href="./detail-card.html" class="all-card-body-item">
-                    <div class="all-card-content">
-                        <div class="card-amount">
-                            <span class="amount">0</span> <span class="currency">XAF</span>
-                        </div>
-                        <div class="case">
-                            <span>0/30</span>
-                        </div>
-                    </div>
-                    <div class="card-name">
-                        <h6>Carte n°3</h6>
-                    </div>
-                </a>
+                </form>
             </div>
         </section>
     </main>
