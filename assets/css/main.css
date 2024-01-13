@@ -617,6 +617,9 @@
     }
     /* Bottom bar mobile end */
 
+    .body-transaction main,
+    .body-service main,
+    .body-compte main,
     .body-detail-card main,
     .body-home main{
         overflow-x: auto;
@@ -999,8 +1002,195 @@
     .body-detail-card .versement .btn-versement:hover{
         background-color: var(--first-color-hover);
     }
-
     /* Details card end */
+
+    /* Page compte start */
+    .body-compte .compte{
+        padding: 10px 15px;
+    }
+
+    .body-compte .compte .compte-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border-bottom: 3px solid var(--black-color); */
+        margin-bottom: 10px;
+    }
+
+    .body-compte .compte .compte-head h5{
+        font-family: var(--maintfont);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .body-compte .compte .compte-body .profil-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body-compte .compte .compte-body .profil-detail img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .body-compte .compte .compte-body .profil-detail h5{
+        font-family: var(--maintfont);
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--black-color);
+        margin-bottom: 2px !important;
+    }
+
+    .body-compte .compte .compte-body .profil-detail h6{
+        font-family: var(--maintfont);
+        font-size: 15px;
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 2px !important;
+    }
+
+    .body-compte .compte .compte-body .profil-detail .logout a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: var(--maintfont);
+        color: red;
+        transition: ease-in-out .3s;
+    }
+
+    .body-compte .compte .compte-body .profil-detail .logout a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+
+    .body-compte .compte .compte-body .compte-option{
+        margin-top: 20px !important;
+    }
+
+    .body-compte .compte .compte-body .compte-option ul{
+        list-style: none;
+        padding-left: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .body-compte .compte .compte-body .compte-option ul li{
+        margin-bottom: 10px !important;
+        border-bottom: 2px solid gray;
+    }
+
+    .body-compte .compte .compte-body .compte-option ul li:last-child{
+        margin-bottom: 0px !important;
+    }
+
+    .body-compte .compte .compte-body .compte-option ul li a{
+        text-decoration: none;
+        color: var(--black-color);
+        font-family: var(--maintfont);
+        font-size: 16px;
+        font-weight: 500;
+        transition: ease-in-out .3s;
+    }
+
+    .body-compte .compte .compte-body .compte-option ul li a:hover{
+        color: var(--first-color-hover);
+    }
+    /* Page compte end */
+
+    /* Page service start */
+    .body-service .services{
+        padding: 10px 15px;
+    }
+
+    .body-service .services .service-head{
+        display: flex;
+        align-items: center;
+        /* border-bottom: 3px solid var(--black-color); */
+        margin-bottom: 10px;
+    }
+
+    .body-service .services .service-head h5{
+        font-family: var(--maintfont);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .body-service .services .service-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-service .services .service-body .service-card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--first-color-light);
+        height: 100px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .body-service .services .service-body .service-card h5{
+        font-family: var(--maintfont);
+        color: var(--white-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .body-service .services .service-body .service-card h5 span:first-child{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .body-service .services .service-body .service-card h5 span:last-child{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .body-service .services .service-body .service-card > svg,
+    .body-service .services .service-body .service-card > span{
+        font-size: 40px;
+        font-weight: bold;
+        color: var(--white-color);
+    }
+
+    .body-service .services .service-body .service-card{
+
+    }
+
+    .body-service .services .service-body .service-card{
+
+    }
+
+
+
+    /* Page service end */
+
+    /* Page transaction start */
+    .body-transaction .transactions{
+        padding: 10px 15px;
+    }
+
+    .body-transaction .transaction .transaction-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border-bottom: 3px solid var(--black-color); */
+        margin-bottom: 10px;
+    }
+
+    .body-transaction .transaction .transaction-head h5{
+        font-family: var(--maintfont);
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /* Page transaction end */
 }
 
 /* Version Mobile end */
