@@ -31,6 +31,10 @@
     --secod-color-hove: #af6901;
     --black-color: #000000;
     --white-color: #ffffff;
+    --red-color: #e00909;
+    --red-color-hover: #a00303;
+    --green-color: #09e051;
+    --green-color-hover: #1a7538;
     --gray-color: #828282;
     --background: #f2eeee;
     /* Color end */
@@ -617,6 +621,8 @@
     }
     /* Bottom bar mobile end */
 
+    /* Main start */
+    .body-all-card main,
     .body-transaction main,
     .body-service main,
     .body-compte main,
@@ -626,6 +632,7 @@
         height: 90vh;
         padding-bottom: 50px !important;
     }
+    /* Main end */
 
     /* Balance accueil start */
     .body-home .balance{
@@ -1159,17 +1166,6 @@
         font-weight: bold;
         color: var(--white-color);
     }
-
-    .body-service .services .service-body .service-card{
-
-    }
-
-    .body-service .services .service-body .service-card{
-
-    }
-
-
-
     /* Page service end */
 
     /* Page transaction start */
@@ -1191,6 +1187,134 @@
         font-weight: bold;
     }
     /* Page transaction end */
+
+    /* Page all-card start */
+
+    .body-all-card .all-cards{
+        padding: 10px 15px;
+    }
+
+    .body-all-card .all-cards .all-card-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border-bottom: 3px solid var(--black-color); */
+        margin-bottom: 10px;
+    }
+
+    .body-all-card .all-cards .all-card-head h5{
+        font-family: var(--maintfont);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .body-all-card .all-cards .all-card-body{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        justify-items: center;
+        align-items: flex-start;
+    }
+
+    /* .body-all-card .all-cards .all-card-body a{
+        margin-right: 15px !important;
+    }
+
+    .body-all-card .all-cards .all-card-body a:last-child{
+        margin-right: 0 !important;
+    } */
+
+    .body-all-card .all-cards .all-card-body .all-card-add{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        color: var(--black-color);
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-add div{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        color: var(--white-color);
+        font-size: 28px;
+        font-weight: 900;
+        border-radius: 20px;
+        background-color: var(--secod-color);
+        transition: ease-in-out .3s;
+        margin-bottom: 10px;
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-add:hover{
+        color: var(--secod-color-hove);
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-add div:hover{
+        background-color: var(--secod-color-hove);
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-add h6{
+        font-size: 16px !important;
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-body-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        color: var(--black-color);
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-body-item .all-card-content{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        color: var(--white-color);
+        border-radius: 20px;
+        background-color: var(--first-color-light);
+        transition: ease-in-out .3s;
+        margin-bottom: 10px;
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-body-item .all-card-content:hover{
+        background-color: var(--first-color-hover);
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-body-item .all-card-content.end{
+        background-color: var(--green-color);
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-body-item .all-card-content.end:hover{
+        background-color: var(--green-color-hover);
+    }
+    
+    .body-all-card .all-cards .all-card-body .all-card-body-item .all-card-content.aborted{
+        background-color: var(--red-color);
+    }
+    .body-all-card .all-cards .all-card-body .all-card-body-item .all-card-content.aborted:hover{
+        background-color: var(--red-color-hover);
+    }
+
+    .body-all-card .all-cards .all-card-body .all-card-body-item:hover{
+        color: var(--first-color-hover);
+    }
+
+    .body-all-card .cards .all-card-body .all-card-body-item .all-card-content span{
+        font-size: 14px;
+    }
+    /* Page all-card end */
 }
 
 /* Version Mobile end */
