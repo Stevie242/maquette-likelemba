@@ -118,7 +118,7 @@
     margin-bottom: 0;
     padding: 10px 15px;
     width: 100%;
-    background-color: var(--first-color);
+    background-color: var(--second-color);
 }
 
 .bottom-navigation ul {
@@ -145,7 +145,7 @@
 }
 
 .bottom-navigation ul li a:hover {
-    color: var(--first-color-hover);
+    color: var(--second-color-hover);
 }
 
 .bottom-navigation ul li a span:last-child {
@@ -1188,7 +1188,7 @@
         margin-bottom: 0;
         padding: 10px 15px;
         width: 100%;
-        background-color: var(--first-color);
+        background-color: var(--second-color);
     }
 
     .bottom-navigation ul {
@@ -1215,7 +1215,7 @@
     }
 
     .bottom-navigation ul li a:hover {
-        color: var(--first-color-hover);
+        color: var(--second-color-hover);
     }
 
     .bottom-navigation ul li a span:last-child {
