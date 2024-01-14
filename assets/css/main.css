@@ -1183,8 +1183,8 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        border-top-right-radius: 30px;
-        border-top-left-radius: 30px;
+        border-top-right-radius: 100%;
+        border-top-left-radius: 100%;
         margin-bottom: 0;
         padding: 10px 15px;
         width: 100%;
@@ -1201,6 +1201,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+        bottom: -8px;
     }
 
     .bottom-navigation ul li a {
