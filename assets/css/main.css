@@ -1202,7 +1202,7 @@
         justify-content: space-between;
         align-items: center;
         position: relative;
-        bottom: -10px;
+        bottom: -16px;
     }
 
     .bottom-navigation ul li a {
