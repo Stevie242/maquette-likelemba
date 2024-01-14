@@ -1642,6 +1642,24 @@
         font-weight: bold;
     }
 
+    .body-detail-card .cases .case-state{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .body-detail-card .cases .case-state div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .body-detail-card .cases .case-state div h6:last-child{
+        font-weight: bold;
+    }
+
     .body-detail-card .cases .case-body {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
